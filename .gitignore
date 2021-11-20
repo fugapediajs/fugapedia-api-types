@@ -1,0 +1,5 @@
+node_modules/
+
+v*.d.ts
+v*.js
+v*.mjs
