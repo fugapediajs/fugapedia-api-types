@@ -3,4 +3,8 @@ node_modules/
 .npmignore
 package-lock.json
 tsconfig.json
+
+global/v*.ts
+payloads/v*/*.ts
+rest/v*/*.ts
 v*.ts

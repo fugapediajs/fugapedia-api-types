@@ -1,18 +1,19 @@
 {
   "name": "fugapedia-api-types",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "main": "./v1.js",
-	"module": "./v9.mjs",
-	"types": "./v9.d.ts",
+  "module": "./v1.mjs",
+  "types": "./v1.d.ts",
   "exports": {
     "./v1": {
       "require": "./v1.js",
-			"import": "./v1.mjs"
+      "import": "./v1.mjs"
     }
   },
   "scripts": {
-    "build": "tsc && gen-esm-wrapper ./v1.js ./v1.mjs",
+    "build": "tsc && npm run esm",
+    "esm": "node ./scripts/build.mjs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -26,6 +27,9 @@
   },
   "homepage": "https://github.com/fugapediajs/fugapedia-api-types#readme",
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.4.0",
+    "@typescript-eslint/parser": "^5.4.0",
+    "eslint": "^8.2.0",
     "gen-esm-wrapper": "^1.1.3",
     "typescript": "^4.5.2"
   }

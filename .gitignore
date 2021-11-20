@@ -1,5 +1,17 @@
 node_modules/
 
+global/v*.d.ts
+global/v*.js
+global/v*.mjs
+
+payloads/v*/*.d.ts
+payloads/v*/*.js
+payloads/v*/*.mjs
+
+rest/v*/*.d.ts
+rest/v*/*.js
+rest/v*/*.mjs
+
 v*.d.ts
 v*.js
 v*.mjs
