@@ -1,6 +1,6 @@
 {
   "name": "fugapedia-api-types",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "",
   "main": "./v1.js",
   "module": "./v1.mjs",
@@ -11,6 +11,11 @@
       "import": "./v1.mjs"
     }
   },
+  "files": [
+    "{payloads,rest}/**/*.{js,d.ts,mjs}",
+    "{global}/*.{js,d.ts,mjs}",
+    "v*.{js,d.ts,mjs}"
+  ],
   "scripts": {
     "build": "tsc && npm run esm",
     "esm": "node ./scripts/build.mjs",
