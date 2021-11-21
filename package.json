@@ -1,6 +1,6 @@
 {
   "name": "fugapedia-api-types",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "",
   "main": "./v1.js",
   "module": "./v1.mjs",
@@ -13,7 +13,7 @@
   },
   "files": [
     "{payloads,rest}/**/*.{js,d.ts,mjs}",
-    "{global}/*.{js,d.ts,mjs}",
+    "global/v*.{js,d.ts,mjs}",
     "v*.{js,d.ts,mjs}"
   ],
   "scripts": {
@@ -27,6 +27,11 @@
   },
   "author": "Synbulat Biishev <syjalo.dev@gmail.com>",
   "license": "MIT",
+  "keywords": [
+    "fugapedia",
+    "api",
+    "фугапедия"
+  ],
   "bugs": {
     "url": "https://github.com/fugapediajs/fugapedia-api-types/issues"
   },
