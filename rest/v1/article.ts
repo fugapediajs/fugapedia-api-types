@@ -1,5 +1,5 @@
 import { BaseQuery, BaseResponse } from '../../global/v1';
-import { APIArticleResponseType } from '../../payloads/v1/article';
+import { APIArticle, APIArticleResponseType } from '../../payloads/v1/article';
 
 export interface RESTGetAPIArticleQuery extends BaseQuery {
   /**
@@ -18,7 +18,4 @@ export interface RESTGetAPIArticleQuery extends BaseQuery {
   type: APIArticleResponseType
 }
 
-export interface RESTGetAPIArticleResponse extends BaseResponse {
-  article: string
-  article_content: string
-}
+export type RESTGetAPIArticleResponse = APIArticle & BaseResponse
