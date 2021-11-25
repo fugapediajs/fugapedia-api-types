@@ -1,7 +1,7 @@
 {
   "name": "fugapedia-api-types",
   "version": "0.0.6",
-  "description": "",
+  "description": "fugapedia-api-types is provide you type definitions for the Fugapedia API",
   "main": "./v1.js",
   "module": "./v1.mjs",
   "types": "./v1.d.ts",
