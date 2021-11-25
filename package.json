@@ -19,6 +19,8 @@
   "scripts": {
     "build": "tsc && npm run esm",
     "esm": "node ./scripts/build.mjs",
+    "lint": "eslint --ext mjs,js {payloads,rest}/**/*.ts global/v*.ts v*.ts",
+    "lint:fix": "eslint --fix --ext mjs,js {payloads,rest}/**/*.ts global/v*.ts v*.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

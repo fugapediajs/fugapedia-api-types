@@ -13,6 +13,6 @@ export const Routes = {
 
 export const RouteBases = {
   api: 'https://fugapedia.xyz/api',
-  images: 'https://fugapedia.xyz/images'
+  images: 'https://fugapedia.xyz/images',
 };
 Object.freeze(RouteBases);

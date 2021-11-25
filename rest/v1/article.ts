@@ -1,5 +1,5 @@
-import { BaseQuery, BaseResponse } from '../../global/v1';
 import { APIArticle, APIArticleResponseType } from '../../payloads/v1/article';
+import { BaseQuery, BaseResponse } from '../../global/v1';
 
 export interface RESTGetAPIArticleQuery extends BaseQuery {
   /**
