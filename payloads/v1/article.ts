@@ -4,6 +4,6 @@ export interface APIArticle {
 }
 
 export const enum APIArticleResponseType {
-  Text = '1',
-  WikiMarkup = '2',
+  Text = 1,
+  WikiMarkup,
 }

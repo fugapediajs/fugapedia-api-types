@@ -1,6 +1,6 @@
 export * from './article';
 
-export const APIVersion = '1';
+export const APIVersion = 1;
 
 export const Routes = {
   /**

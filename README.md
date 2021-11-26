@@ -1,7 +1,8 @@
 # fugapedia-api-types
 <p align="center">
-  <a href="https://www.npmjs.com/package/fugapedia-api-types"><img src="https://img.shields.io/npm/v/fugapedia-api-types?color=FF6E1B&maxAge=3600" alt="npm version" /></a>
-  <a href="https://www.npmjs.com/package/fugapedia-api-types"><img src="https://img.shields.io/npm/dt/fugapedia-api-types?color=FF6E1B&maxAge=3600" alt="npm downloads" /></a>
+  <a href="https://discord.gg/Phqaa4DVEK"><img src="https://img.shields.io/discord/911878509599817739?color=5865F2&logo=discord&logoColor=white&maxAge=3600" alt="Discord" /></a>
+  <a href="https://www.npmjs.com/package/fugapedia-api-types"><img src="https://img.shields.io/npm/v/fugapedia-api-types?maxAge=3600" alt="npm version" /></a>
+  <a href="https://www.npmjs.com/package/fugapedia-api-types"><img src="https://img.shields.io/npm/dt/fugapedia-api-types?maxAge=3600" alt="npm downloads" /></a>
 </p>
 
 fugapedia-api-types is provide you type definitions for the [Fugapedia API](https://fugapedia.xyz/api.php)
