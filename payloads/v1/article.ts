@@ -3,7 +3,7 @@ export interface APIArticle {
   article_content: string
 }
 
-export const enum APIArticleResponseType {
+export enum APIArticleResponseType {
   Text = 1,
   WikiMarkup,
 }
